@@ -1,0 +1,17 @@
+.approach {
+  display: flex;
+  flex-direction: column;
+  &__description {
+    font-family: 'Rubik', Arial, sans-serif;
+    font-size: 26px;
+    line-height: 130%;
+    font-weight: 400;
+    padding: 0;
+    margin: 20px 0 0;
+    color: #FFFFFF;
+    &-margin {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+}
