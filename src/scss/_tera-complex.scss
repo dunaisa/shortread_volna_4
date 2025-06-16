@@ -69,6 +69,8 @@
       font-size: 26px;
       line-height: 140%;
       font-weight: 400;
+      padding: 0;
+      margin: 0;
       background: linear-gradient(89.99deg, #B7936E -4.28%, #FBF0D7 39.09%, #B7936E 90.78%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
@@ -81,10 +83,11 @@
     }
     &-img {
       position: absolute;
-      max-width: 680px;
+      max-width: 580px;
       object-fit: cover;
-      top: -160px;
-      right: -167px;
+      top: -140px;
+      right: -137px;
+      z-index: -3;
     }
   }
 }
