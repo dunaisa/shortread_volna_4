@@ -1,0 +1,35 @@
+.literature-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  &__note {
+    margin: 40px 0 20px;
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 300;
+    padding: 0;
+    color: #ffffff;
+  }
+  &__separator {
+    width: 100%;
+    background-color: #ffffff;
+    height: 1px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__items {
+    margin: 20px 0 20px 20px;
+    padding: 0;
+  }
+  &__item {
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+  }
+}

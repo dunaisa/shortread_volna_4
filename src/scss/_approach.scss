@@ -13,5 +13,8 @@
       display: inline-block;
       margin-bottom: 5px;
     }
+    @media screen and (max-width: 600px) {
+      margin-top: 15px;
+    }
   }
 }

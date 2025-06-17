@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  max-width: 1308px;
+  max-width: 1200px;
   width: 100%;
   margin-bottom: 60px;
   padding: 0 20px;
@@ -13,13 +13,12 @@
     flex-direction: column;
     width: 450px;
     align-self: center;
-    margin-left: 45px;
   }
   &__text {
     font-family: 'Rubik', Arial, sans-serif;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 400;
+    font-weight: 300;
     padding: 0;
     margin: 0;
     color: #FFFFFF;
@@ -29,7 +28,7 @@
     font-family: 'Rubik', Arial, sans-serif;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 400;
+    font-weight: 300;
     padding: 0;
     margin: 0;
     color: #FFFFFF;

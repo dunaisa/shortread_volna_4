@@ -1,6 +1,5 @@
 @use './normalize';
 @use '../fonts/fonts.scss';
-@use './page';
 @use './header';
 @use './main';
 @use './promo';
@@ -10,6 +9,9 @@
 @use './tera-complex';
 @use './tera-ultra';
 @use './dosage';
+@use './literature-list';
+@use './page';
+
 
 
 // @use './title-block';

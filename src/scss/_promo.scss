@@ -87,6 +87,15 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     justify-self: start;
+    @media screen and (max-width: 1440px) {
+      font-size: 68px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 50px;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 28px;
+    }
   }
   &__subtitle {
     padding: 0;
@@ -101,6 +110,13 @@
     justify-self: start;
     display: inline-block;
     max-width: 450px;
+    @media screen and (max-width: 1440px) {
+      // font-size: 32px;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 28px;
+      margin: 0;
+    }
   }
 }
 
@@ -184,7 +200,7 @@
   }
 
   .promo-container {
-    margin-top: 20px;
+    margin-top: 0;
   }
   .promo__brand-icon {
     margin-top: 0;

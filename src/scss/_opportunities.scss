@@ -4,6 +4,12 @@
   gap: 40px;
   position: relative;
   margin-bottom: 80px;
+  @media screen and (max-width: 880px) {
+    gap: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    margin-bottom: 40px;
+  }
   &::before {
     content: "";
     position: absolute;
@@ -15,6 +21,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.8;
+    @media screen and (max-width: 950px) {
+      display: none;
+    }
   }
   &__scheme {
     border-radius: 15px;
@@ -38,9 +47,25 @@
       z-index: -1;
     }
     &-img {
-      max-width: 1126px;
       width: 100%;
       object-fit: cover;
+      &--desk {
+        max-width: 1126px;
+        @media screen and (max-width: 880px) {
+          display: none;
+        }
+      }
+      &--mob {
+        display: none;
+        @media screen and (max-width: 880px) {
+          display: block;
+          max-width: 600px;
+        }
+      }
+
+    }
+    @media screen and (max-width: 880px) {
+      padding: 10px;
     }
   }
 }
